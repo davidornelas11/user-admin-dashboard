@@ -110,10 +110,11 @@ const funcForList = (input, name) => {
 
     const body = (
         <div style={modalStyle} className={classes.paper}>
-          <h2 id="simple-modal-title">Text in a modal</h2>
-          <p id="simple-modal-description">
-            {personForModal.displayName}
+          <h2 id="simple-modal-title">{personForModal.displayName}</h2>
+          <p id="simple-modal-description"> 
+            
           </p>
+          <img src={personForModal.photoURL} /> 
           
         </div>
       );
