@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.user-lookup {
+  margin-left: 40vw;
+  margin-top: 20vh;
+}
